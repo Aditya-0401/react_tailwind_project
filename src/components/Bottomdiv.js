@@ -15,10 +15,13 @@ export const Bottomdiv = () => {
         <p className="text-[14px]">Recommended for you</p>
       </div>
 
-      <div className="flex">
+      <div className="flex overflow-x-scroll">
       <Card imgOne={Treasure} imgTwo={CheckBox} title="Khajana" price="8500"/>
       <Card imgOne={Group} imgTwo={CheckBox} title="Saarthi" price="8500"/>
       <Card imgOne={Book} imgTwo={CheckBox} title="Chemistry, Physi..." price="8500"/>
+      <Card imgOne={Group} imgTwo={CheckBox} title="Chemistry, Physi..." price="8500"/>
+      <Card imgOne={Treasure} imgTwo={CheckBox} title="Chemistry, Physi..." price="8500"/>
+
       </div>
       
     </div>

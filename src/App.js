@@ -6,7 +6,7 @@ import { Recommended } from './components/Recommended';
 import { Ordersummary } from './components/Ordersummary';
 import { Bottomdiv } from './components/Bottomdiv';
 import { Discount } from './components/Discount';
-import Image from "./images/arjuna.png";
+import ArjunaImg from "./images/arjuna.png";
 
 function App() {
 
@@ -42,7 +42,7 @@ function App() {
                 </div>
 
                 <div className="flex flex-col border w-[83.6px] h-[103.4px] items-center text-center ml-[20px] mb-4 rounded-md">
-                  <img src={Image} alt="Arjuna Image" className="mt-2"/>
+                  <img src={ArjunaImg} alt="Arjuna Image" className="mt-2"/>
                   <p className="text-[12px] font-semibold text-[#3D3D3D] ml-[10px]">Arjuna JEE Batch...</p>
                   <p className="text-[#757575] font-medium text-[10px]">₹5999</p>
                 </div>
