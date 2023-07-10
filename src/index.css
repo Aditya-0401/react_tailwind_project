@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-family: Gilroy;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../public/fonts/Gilroy-Medium.ttf");
+}

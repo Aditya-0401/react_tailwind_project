@@ -2,15 +2,16 @@ import React from "react";
 import { Navitems } from "./Navitems";
 import RightBtn from "./RightBtn";
 import logo from "../images/logo pw.png";
+import { ArrowDown } from "./ArrowDown";
 
 export const LeftNavigation = () => {
   return (
     <aside
       id="default-sidebar"
-      className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 ]"
+      className="fixed top-0 left-0 z-40 lg:static w-64 h-full transition-transform -translate-x-full sm:translate-x-0 ]"
       aria-label="Sidebar"
     >
-      <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50">
+      <div className="h-full px-3 py-4 overflow-y-auto bg-[#FFFFFF]">
         <ul className="space-y-2 font-medium">
           <li >
             <div className="flex items-center ml-5">
@@ -38,6 +39,13 @@ export const LeftNavigation = () => {
           <Navitems title="Bookmarks"/>
           <Navitems title="Notifications"/>
           <Navitems title="My Wallet"/>
+          
+          <hr/>
+
+          <div className="flex items-center ml-4 p-2 text-[#0892CB] text-[12px] font-bold">
+            See More
+            <span className="p-2"><ArrowDown/></span>
+          </div>
         </ul>
       </div>
     </aside>
